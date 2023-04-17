@@ -21,3 +21,8 @@ def escola():
 def hobbies():
     titulo = "Hobbies"
     return render_template ("hobbies.html", title = titulo)
+
+@app.route("/fotografias")
+def fotos():
+    titulo = "Fotografias"
+    return render_template ("fotografias.html", title = titulo)
