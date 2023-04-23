@@ -7,12 +7,12 @@ def home():
     titulo = "Home"
     return render_template ("home.html", title = titulo)
 
-@app.route("/home.html")
+@app.route("/home")
 def home2():
     titulo = "Home"
     return render_template ("home.html", title = titulo)
 
-@app.route("/escolaridade.html")
+@app.route("/escolaridade")
 def escola():
     titulo = "Escolaridade"
     return render_template ("escolaridade.html", title = titulo)
