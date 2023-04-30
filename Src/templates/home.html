@@ -3,43 +3,20 @@
 {% block conteudo %}
 <body class="margem" style="background-color: #9dd2d8;">
     <div style="display: flex; justify-content: center;">
-        <img style="border-radius: 20px;" src="../static/Imagens/perfil.jpg" alt="foto de perfil" width="200px">
+        <img style="border-radius: 20%", srcset="../static/Imagens/perfil.jpg 150w, ../static/Imagens/perfil.jpg 300w" sizes="(max-width: 700px) 20px, 30px">
     </div>
     <div style="text-align: center; ">
         <h2> Meu Portifólio </h2>
     </div>
     <div class="home-container">
-        <div class="botao">
-            <a href="/escolaridade"> Escolaridade </a>
-            <div>
-                <a href="/escolaridade"> <img src="../static/Imagens/chapeu.png" alt="" width="90px"> </a>
-            </div>
+        <div>
+            <a href="/escolaridade"> Escolaridade <img srcset="../static/Imagens/chapeu.png 150w, ../static/Imagens/chapeu.png 300w" sizes="(max-width: 700px) 20px, 90px" alt=""> </a>
         </div>
-        <div class="botao">        
-            <a href="/hobbies"> Hobbies </a>
-            <div>
-                <a href="/hobbies"> <img src="../static/Imagens/fone.png" alt="" width="90px"> </a>
-            </div>
+        <div>        
+            <a href="/hobbies"> Hobbies <img srcset="../static/Imagens/fone.png 150w, ../static/Imagens/fone.png 300w" sizes="(max-width: 700px) 20px, 90px" alt=""> </a>
         </div>
-        <div class="botao">
-            <a href="/fotografias"> Fotografias</a>
-            <div>
-                <a href="/fotografias"> <img src="../static/Imagens/camera.png" alt="" width="90px"> </a>
-            </div>
+        <div>
+            <a href="/fotografias"> Fotografias <img srcset="../static/Imagens/camera.png 150w, ../static/Imagens/chapeu.png 300w" sizes="(max-width: 700px) 20px, 90px" alt=""> </a>
         </div>
-    </div>
-    <div class="footer">
-        <p> Todos os direitos reservados </p>
-    </div>
-    <div class="footer">
-            <a href="https://www.instagram.com/velipefieira">
-            <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Instagram" width="20" > </a>  
-            <a href="https://www.instagram.com/velipefieira"> @velipefieira  </a>
-            |
-            <a href="https://github.com/FelipeVieira27" style="padding-left: 5px;"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="20"> </a>
-            <a href="https://github.com/FelipeVieira27"> @FelipeVieira27</a>
-            |
-            <a href="https://www.linkedin.com/in/velipefieira/" style="padding-left: 5px;"> <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Linkedin" width="20"> </a>
-            <a href="https://cdn-icons-png.flaticon.com/512/174/174857.png"> @velipefieira </a>
     </div>
 {% endblock %}
