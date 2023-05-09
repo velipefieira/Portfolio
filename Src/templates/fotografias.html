@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+<body class="margem" style="background-color: #C3E9EC;">
+<div>
+    <img src="../static/Imagens/perfil.jpg" alt="logo" width="10%" style="border-radius: 20%;"> 
+    <div class="links">
+        <a  href="/"> Home </a> |
+        <a href="/escolaridade"> Escolaridade </a> |
+        <a href="/hobbies"> Hobbies </a>
+    </div>
+</div>
+<div style="font-size: 150%; margin:1% 0%;">
+    Uma das atividades preferidas de Felipe, é registrar momentos, sejam estes observando a natureza ou
+acompanhado de sua gata de estimação.
+</div>
+<div>
+    <img srcset="../static/Imagens/fone.png 150w, ../static/Imagens/fone.png 300w" sizes="(max-width: 700px) 20px, 90px" alt="">
+</div>
+
+{% endblock %}
