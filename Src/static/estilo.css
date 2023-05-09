@@ -1,0 +1,147 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.margem {
+    margin: 2%;
+    font-family: 'Inter', sans-serif;
+}
+
+footer{
+    margin-top: 1%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer a{
+    padding-right: 0.5%;
+}
+
+.fundo1 {
+    background-color: #C9C9C9;
+}
+
+.fundo3 {
+    background-color: #C3E9EC;
+}
+
+.home-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1%;
+}
+
+.home-container a{
+    background-color:#C3E9EC;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    width: 320px;
+}
+
+.home-container a:hover {
+    background-color: #b2d7da;
+}
+
+@media (max-width: 700px){
+    .home-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .home-container a{
+        flex-direction: row;
+        border-radius: 5%;
+        padding: 5%;
+        margin: 1%;
+        height: 40px;
+        width: auto;
+    }
+
+}
+
+
+
+.imagens {
+    height: 90px;
+    width: 90px;
+    margin: auto;
+}
+
+
+.esc-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 150%;
+    padding-top: 2%;
+}
+
+.esc-container div{
+    margin: 1%;
+}
+
+.esc-container img{
+    width: 2%;
+}
+
+desc{
+    font-size: 150%;
+}
+
+.hob-container {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-bottom: 1%;
+}
+
+.hob-container div{
+    background-color:#9dd2d8;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    width: 400px;
+    font-size: 150%;
+    margin: 1%;
+}
+
+.hob-container div:hover {
+    background-color: #93c5ca;
+}
+
+@media (max-width: 700px){
+    .hob-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hob-container div{
+        flex-direction: row;
+        border-radius: 5%;
+        padding: 5%;
+        margin: 1%;
+        height: 40px;
+        width: auto;
+    }
+
+}
+
+
+
+.links {
+    float: right;
+    padding-top: 3%;
+}
+
+.links img{
+    float: left;
+
+}

@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+<body class="margem" style="background-color: #C3E9EC;">
+<div>
+    <img src="../static/Imagens/perfil.jpg" alt="logo" width="10%" style="border-radius: 20%;"> 
+    <div class="links">
+        <a  href="/"> Home </a> |
+        <a href="/escolaridade"> Escolaridade </a> |
+        <a href="/fotografias"> Fotografias </a>
+    </div>
+</div>
+<p style="font-size: 150%;">
+    Dentre os hobbies favoritos de Felipe estão:
+</p>
+<div class="hob-container">
+    <div>
+        Ouvir música <img srcset="../static/Imagens/fone.png 150w, ../static/Imagens/fone.png 300w" sizes="(max-width: 700px) 20px, 90px" alt="">
+    </div>
+    <div>
+        Ler livros <img srcset="../static/Imagens/livro.png 150w, ../static/Imagens/livro.png 300w" sizes="(max-width: 700px) 20px, 90px" alt="">
+    </div>
+    <div>
+        Ir para academia <img srcset="../static/Imagens/academia.png 150w, ../static/Imagens/academia.png 300w" sizes="(max-width: 700px) 20px, 90px" alt="">
+    </div>
+    <div>
+        Assistir futebol <img srcset="../static/Imagens/jogador.png 150w, ../static/Imagens/jogador.png 300w" sizes="(max-width: 700px) 20px, 90px" alt="">
+    </div>
+    <div>
+        Tirar fotos <img srcset="../static/Imagens/camera.png 150w, ../static/Imagens/camera.png 300w" sizes="(max-width: 700px) 20px, 90px" alt="">
+    </div>
+</div>
+
+{% endblock %}
