@@ -3,8 +3,17 @@
 
 
 .margem {
-    margin: 2%;
+    margin: 1.5%;
     font-family: 'Inter', sans-serif;
+}
+
+body {
+    font-family:"Inter", sans-serif;
+}
+
+@media (max-width: 700px){ 
+    .margem {font-family: "Inter", sans-serif;
+    font-size:  70%;}
 }
 
 footer{
@@ -28,6 +37,53 @@ footer{
     background-color: #C3E9EC;
 }
 
+.card {
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+}
+
+@media (max-width: 700px) {
+    .card {width: 90px;
+    height: 90px;}
+}
+
+
+.in {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.card:hover .in {
+    transform: rotateY(180deg);
+  }
+
+.front, .back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front {
+    border-radius: 20%;
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+.front img, .back img{
+    width: 100%;
+    height: 100%;
+}
+
 .home-container {
     display: flex;
     justify-content: space-around;
@@ -43,6 +99,7 @@ footer{
     align-items: center;
     height: 240px;
     width: 320px;
+    font-size: 150%;
 }
 
 .home-container a:hover {
@@ -90,8 +147,9 @@ footer{
     width: 2%;
 }
 
-desc{
+.desc{
     font-size: 150%;
+    margin: 1%;
 }
 
 .hob-container {
@@ -108,7 +166,7 @@ desc{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 240px;
+    height: 230px;
     width: 400px;
     font-size: 150%;
     margin: 1%;
@@ -118,12 +176,36 @@ desc{
     background-color: #93c5ca;
 }
 
+.hob-container a{
+    background-color:#9dd2d8;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+    width: 400px;
+    margin: 1%;
+}
+
+.hob-container a:hover {
+    background-color: #93c5ca;
+}
+
 @media (max-width: 700px){
     .hob-container {
         flex-direction: column;
         justify-content: center;
     }
     .hob-container div{
+        flex-direction: row;
+        border-radius: 5%;
+        padding: 5%;
+        margin: 1%;
+        height: 40px;
+        width: auto;
+    }
+    .hob-container a{
         flex-direction: row;
         border-radius: 5%;
         padding: 5%;
@@ -145,3 +227,17 @@ desc{
     float: left;
 
 }
+
+.foto-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.foto-container img{
+    border-radius: 10%;
+    padding: 0.3%;
+}
+
+
+
