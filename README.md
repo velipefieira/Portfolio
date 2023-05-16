@@ -101,7 +101,9 @@
  <p>  - - L 📁 imagens: Pasta contendo as imagens utilizadas no projeto. </p>
  <p>  | :spiral_notepad: .gitignore: Arquivo para ignorar os ambientes virtuais durante o envio ao GitHub. <p>
  <p>  | :spiral_notepad: README.MD: Documentação que você está lendo neste momento. </p>
+ <p>  | 🗒️ requirements.txt: Documento de texto com os requerimentos para rodar o sistema. </p>
  
+ <p> </p>
  
 <div>
   <h5> Produzido por: Felipe Gabriel Vieira</h5>
