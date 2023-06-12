@@ -5,6 +5,10 @@ body {
     font-family:"Inter", sans-serif
 }
 
+a{
+    color: black;
+}
+
 
 @media (max-width: 700px){ 
     body {font-family: "Inter", sans-serif;
@@ -13,7 +17,7 @@ body {
 }
 
 footer{
-    margin-top: 3%;
+    margin-top: 2%;
     padding: 0.9%;
     background-color: #8abac0;
 }
