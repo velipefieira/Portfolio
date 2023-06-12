@@ -26,3 +26,6 @@ def hobbies():
 def fotos():
     titulo = "Fotografias"
     return render_template ("fotografias.html", title = titulo)
+
+if __name__ == '__main__':
+    app.run(debug=True)

@@ -2,35 +2,61 @@
 
 {% block conteudo %}
 <body class="margem" style="background-color: #C3E9EC;">
-<div>
-    <img src="../static/imagens/logo.png" alt="logo" width="10%" style="border-radius: 20%;"> 
+<div class="nav">
+    <img src="../static/imagens/icons/logo.png" alt="logo" width="10%" style="border-radius: 20%;"> 
     <div class="links">
         <a  href="/"> Home </a> |
         <a href="/escolaridade"> Escolaridade </a> |
         <a href="/fotografias"> Fotografias </a>
     </div>
 </div>
-<p style="font-size: 150%;">
-    Dentre os hobbies favoritos de Felipe estão:
-</p>
+<div class="sub">
+    <p> Dentre os hobbies favoritos de Felipe estão: </p>
+    <h4> Ouvir música </h4>
+</div>
 <div class="hob-container">
     <div>
-       <a href="https://open.spotify.com/playlist/1k4qjwrIdEqEZXaqDwzOHp?si=19ad8609c0684c44" target="_blank">Ouvir música<img srcset="../static/imagens/fone.png 150w, ../static/imagens/fone.png 300w" sizes="(max-width: 700px) 20px, 90px" alt=""> </a>
+        <img srcset="../static/Imagens/capas/musica1.jpg 150w, ../static/imagens/capas/musica1.jpg 500w" sizes="(max-width: 700px) 20px, 90px" alt="">
+        <p> Greenhouse - Miloe </p>
     </div>
     <div>
-        <a href="https://www.skoob.com.br/usuario/9054741" target="_blank"> Ler livros<img srcset="../static/imagens/livro.png 150w, ../static/imagens/livro.png 300w" sizes="(max-width: 700px) 20px, 90px" alt=""> </a>
+        <img srcset="../static/Imagens/capas/musica2.jpg 150w, ../static/imagens/capas/musica2.jpg 500w" sizes="(max-width: 700px) 20px, 90px" alt="">
+        <p> Viva La Vida - Coldplay </p>
     </div>
     <div>
-        <a href="/fotografias">Tirar fotos <img srcset="../static/imagens/camera.png 150w, ../static/imagens/camera.png 300w" sizes="(max-width: 700px) 20px, 90px" alt=""> </a>
-    </div>
-    <div>
-        Ir para academia <img srcset="../static/imagens/academia.png 150w, ../static/imagens/academia.png 300w" sizes="(max-width: 700px) 20px, 90px" alt="">
-    </div>
-    <div>
-        Assistir futebol <img srcset="../static/imagens/jogador.png 150w, ../static/imagens/jogador.png 300w" sizes="(max-width: 700px) 20px, 90px" alt="">
+        <img srcset="../static/imagens/icons/fone.png 100w, ../static/imagens/icons/fone.png 300w" sizes="(max-width: 700px) 20px, 90px" alt="">
+       <p><a href="https://open.spotify.com/playlist/1k4qjwrIdEqEZXaqDwzOHp?si=19ad8609c0684c44" target="_blank"> Veja mais</a></p>
     </div>
 </div>
-
-<p>*Alguns dos itens possuem redirecionamentos para mais detalhes</p>
+    <h4 class="sub"> Ler Livros </h4>
+<div class="hob-container">
+    <div>
+        <img srcset="../static/Imagens/capas/livro1.jpg 100w, ../static/imagens/capas/livro1.jpg 500w" sizes="(max-width: 700px) 20px, 90px" alt="">
+        <p> A Biblioteca da Meia-Noite </p>
+    </div>
+    <div>
+        <img srcset="../static/Imagens/capas/livro2.jpg 200w, ../static/imagens/capas/livro2.jpg 1000w" sizes="(max-width: 700px) 20px, 90px" alt="">
+        <p> Os Dois Morrem No Final </p>
+    </div>
+    <div>
+        <img srcset="../static/imagens/icons/livro.png 100w, ../static/imagens/icons/livro.png 300w" sizes="(max-width: 700px) 20px, 90px" alt=""> 
+        <p><a href="https://www.skoob.com.br/usuario/9054741" target="_blank"> Veja mais </a></p>
+    </div>
+</div>
+    <h4 class="sub"> Tirar fotos </h4>
+<div class="hob-container">
+    <div>
+        <img srcset="../static/Imagens/fotos/foto1.jpg 75w, ../static/imagens/fotos/foto1.jpg 300w" sizes="(max-width: 700px) 20px, 90px" alt="">
+        <p> Foto de manhã pós Lua Cheia </p>
+    </div>
+    <div>
+        <img srcset="../static/Imagens/fotos/foto8.jpg 75w, ../static/imagens/fotos/foto8.jpg 300w" sizes="(max-width: 700px) 20px, 90px" alt="">
+        <p> Foto de um restaurante </p>
+    </div>
+    <div>
+        <img srcset="../static/imagens/icons/camera.png 150w, ../static/imagens/icons/camera.png 300w" sizes="(max-width: 700px) 20px, 90px" alt=""> 
+        <p><a href="/fotografias" target="_blank"> Veja mais </a></p>
+    </div>
+</div>
 
 {% endblock %}
