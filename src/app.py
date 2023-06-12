@@ -27,5 +27,10 @@ def fotos():
     titulo = "Fotografias"
     return render_template ("fotografias.html", title = titulo)
 
+@app.route("/projetos")
+def proj():
+    titulo = "Projetos"
+    return render_template ("projetos.html", title = titulo)
+
 if __name__ == '__main__':
     app.run(debug=True)
