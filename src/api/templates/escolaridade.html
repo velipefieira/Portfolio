@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+<body class="margem" style="background-color: #C3E9EC;">
+    <div class="nav">
+        <a href="/"> <img src="../static/imagens/icons/logo.png" alt="logo" width="10%" style="border-radius: 20%;"> </a>
+        <div class="links">
+            <a href="/"> Home </a> |
+            <a href="/hobbies"> Hobbies </a> |
+            <a href="/projetos"> Projeto </a>
+        </div>
+    </div>
+    <h4 class="sub"> Instituições de ensino:</h4>
+<div class="proj-container">
+    <div>
+        <h4> Colégio Crescer </h4>
+        <img srcset="../static/imagens/icons/chapeu.png 100w, ../static/imagens/icons/chapeu.png 300w" sizes="(max-width: 700px) 20px, 90px" alt=""> 
+        <p> Ensino Fundamental completo </p>
+        <p> (2011 - 2019) </p>
+    </div>
+    <div>
+        <h4> Anglo Cassiano Ricardo </h4>
+        <img srcset="../static/imagens/icons/chapeu.png 100w, ../static/imagens/icons/chapeu.png 300w" sizes="(max-width: 700px) 20px, 90px" alt=""> 
+        <p> Ensino Médio completo </p>
+        <p> (2020 - 2022)</p>
+    </div>
+    <div>
+        <h4> FATEC - Prof. Jessen Vidal</h4>
+        <img srcset="../static/imagens/icons/ampulheta.png 100w, ../static/imagens/icons/ampulheta.png 300w" sizes="(max-width: 700px) 20px, 90px" alt="">
+        <p> Cursando Desenvolvimento de Software Multiplataforma </p>
+        <p> (2023 - presente) </p>
+    </div>
+</div>
+    <h4 class="sub">Outras informações: </h4>
+<div class="proj-container">
+    <div>
+        <h4> 2 vezes classificado para a 2° fase da OBMEP </h4>
+        <img srcset="../static/imagens/icons/medalha.png 100w, ../static/imagens/icons/medalha.png 300w" sizes="(max-width: 700px) 15px, 70px" alt="">
+        <p> (2017 e 2019) </p>
+    </div>
+    <div>
+        <h4> Universidade Tecnológica Federal do Paraná </h4>
+        <img srcset="../static/imagens/icons/medalha.png 100w, ../static/imagens/icons/medalha.png 300w" sizes="(max-width: 700px) 15px, 70px" alt="">
+        <p> Aprovado em Análise e Desenvolvimento de Sistemas</p>
+        <p> (2023) </p>
+    </div>
+</div>
+
+{% endblock %}

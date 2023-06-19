@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+<body class="margem" style="background-color: #C3E9EC;">
+<div class="nav">
+    <a href="/"> <img src="../static/imagens/icons/logo.png" alt="logo" width="10%" style="border-radius: 20%;"> </a>
+    <div class="links">
+        <a href="/"> Home </a> |
+        <a href="/escolaridade"> Escolaridade </a> |
+        <a href="/projetos"> Projetos </a>
+    </div>
+</div>
+<div class="sub">
+    <p> Dentre os hobbies favoritos de Felipe estão: </p>
+    <h4> Ouvir música </h4>
+</div>
+<div class="hob-container">
+    <div>
+        <img srcset="../static/imagens/capas/musica1.jpg 120w, ../static/imagens/capas/musica1.jpg 150w" sizes="(max-width: 700px) 20px, 90px" alt="">
+        <p> Greenhouse - Miloe </p>
+    </div>
+    <div>
+        <img srcset="../static/imagens/capas/musica2.jpg 120w, ../static/imagens/capas/musica2.jpg 150w" sizes="(max-width: 700px) 20px, 90px" alt="">
+        <p> Viva La Vida - Coldplay </p>
+    </div>
+    <div>
+        <img srcset="../static/imagens/icons/fone.png 100w, ../static/imagens/icons/fone.png 300w" sizes="(max-width: 700px) 20px, 90px" alt="">
+       <p><a href="https://open.spotify.com/playlist/1k4qjwrIdEqEZXaqDwzOHp?si=19ad8609c0684c44" target="_blank"> Veja mais</a></p>
+    </div>
+</div>
+    <h4 class="sub"> Ler Livros </h4>
+<div class="hob-container">
+    <div>
+        <img srcset="../static/imagens/capas/livro1.jpg 30w, ../static/imagens/capas/livro1.jpg 100w" sizes="(max-width: 700px) 20px, 90px" alt="">
+        <p> A Biblioteca da Meia-Noite </p>
+    </div>
+    <div>
+        <img srcset="../static/imagens/capas/livro2.jpg 60w, ../static/imagens/capas/livro2.jpg 200w" sizes="(max-width: 700px) 20px, 90px" alt="">
+        <p> Os Dois Morrem No Final </p>
+    </div>
+    <div>
+        <img srcset="../static/imagens/icons/livro.png 100w, ../static/imagens/icons/livro.png 300w" sizes="(max-width: 700px) 20px, 90px" alt=""> 
+        <p><a href="https://www.skoob.com.br/usuario/9054741" target="_blank"> Veja mais </a></p>
+    </div>
+</div>
+    <h4 class="sub"> Tirar fotos </h4>
+<div class="hob-container">
+    <div>
+        <img srcset="../static/imagens/fotos/foto1.jpg 75w, ../static/imagens/fotos/foto1.jpg 300w" sizes="(max-width: 700px) 20px, 90px" alt="">
+        <p> Foto de manhã pós Lua Cheia </p>
+    </div>
+    <div>
+        <img srcset="../static/imagens/fotos/foto8.jpg 75w, ../static/imagens/fotos/foto8.jpg 300w" sizes="(max-width: 700px) 20px, 90px" alt="">
+        <p> Foto de um restaurante </p>
+    </div>
+    <div>
+        <img srcset="../static/imagens/icons/camera.png 150w, ../static/imagens/icons/camera.png 300w" sizes="(max-width: 700px) 20px, 90px" alt=""> 
+        <p><a href="/fotografias" target="_blank"> Veja mais </a></p>
+    </div>
+</div>
+
+{% endblock %}
