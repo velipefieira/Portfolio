@@ -1,11 +1,10 @@
-<h1> :sparkles: Portifólio Pessoal </h1>
-
 <br id="inicio">
+<h1> :sparkles: Portfólio Pessoal </h1>
 
 <h2> 📖 Sobre o projeto: </h2>
-<h4> Trabalho proposto na disciplina Design Digital do primeiro semestre do curso Desenvolvimento de Software Multiplataforma, com o objetivo de criar um portifólio pessoal utilizando os conhecimentos adiquiridos na disciplina Design Digital. </h4>
+<h4> Trabalho proposto na disciplina Design Digital do primeiro semestre do curso Desenvolvimento de Software Multiplataforma, com o objetivo de criar um portfólio pessoal utilizando os conhecimentos adiquiridos na disciplina Design Digital. </h4>
 
-<h2> 📌 Status do projeto: Em andamento ⏳</h2>
+<h2> 📌 Status do projeto: Concluído ✔️</h2>
 <table>
   <tr>
     <th>
@@ -44,14 +43,15 @@
       3.
     </td>
     <td>
-      Ainda não definido
+      Responsividade e implementar no Vercel
     </td>
     <td>
+      <a href="https://github.com/velipefieira/PortifolioDD/releases/tag/V3.0"> 🎫 </a>
     </td>
 </table>  
   
   
-<h4> Tecnologias utilizadas até o momento: </h4>
+<h4> Tecnologias utilizadas: </h4>
 <div>
     <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=black&color=9DD2D8"/>
     <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=black&color=9DD2D8"/>
@@ -60,6 +60,9 @@
 </div>
   
 <h2> 🖥️ Executando a aplicação: </h2>
+<h3> 🌟Opção 1 </h3>
+<h4> Acesse o site <a href="https://portfoliofelipevieira.vercel.app/"> aqui! </a> </h4>
+<h3> 🌟Opção 2 </h4>
 <h4> 1. Certifique-se de possuir o python instalado, caso não possua, <a href="https://www.python.org/downloads/" target="_blank"> clique aqui. </a> </h4>
 <h4> 2. Pesquise por "Terminal" ou "CMD" na sua barra de tarefas e abra o terminal do seu dispositivo.</h4>
 <h4> 3. Clone o repositório com o comando: </h4>
@@ -68,7 +71,7 @@
 
   <h4> 4. Acesse a pasta src com o comando: </h4>
   
-      cd PortifolioDD/src
+      cd Portfolio/src
   
 <h4> 5. Ative o ambiente virtual com estes comandos: </h4>
   
@@ -101,6 +104,7 @@
  <p>  - - L 📁 imagens: Pasta contendo as imagens utilizadas no projeto. </p>
  <p>  | :spiral_notepad: .gitignore: Arquivo para ignorar os ambientes virtuais durante o envio ao GitHub. <p>
  <p>  | :spiral_notepad: README.MD: Documentação que você está lendo neste momento. </p>
+  <p>  | :spiral_notepad: vercel.json: Arquivo para implementar o site na plataforma Vercel. </p>
  <p>  | 🗒️ requirements.txt: Documento de texto com os requerimentos para rodar o sistema. </p>
  
  <p> </p>
