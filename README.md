@@ -25,7 +25,7 @@
       Estrutura de diretórios e Wireframe
     </td>
     <td>
-      <a href="https://github.com/velipefieira/PortifolioDD/releases/tag/V1.0"> :ticket: </a>
+      <a href="https://github.com/velipefieira/Portfolio/tree/V1.0"> :ticket: </a>
     </td>
   </tr>
     <td>
@@ -35,7 +35,7 @@
       README.MD e versão Desktop
     </td>
     <td>
-      <a href="https://github.com/velipefieira/PortifolioDD/releases/tag/V2.0"> 🎫 </a>
+      <a href="https://github.com/velipefieira/Portfolio/tree/V2.0"> 🎫 </a>
     </td>
   </tr>  
   <tr>
@@ -46,7 +46,7 @@
       Responsividade e implementar no Vercel
     </td>
     <td>
-      <a href="https://github.com/velipefieira/PortifolioDD/releases/tag/V3.0"> 🎫 </a>
+      <a href="https://github.com/velipefieira/Portfolio/tree/V3.0"> 🎫 </a>
     </td>
 </table>  
   
@@ -67,7 +67,7 @@
 <h4> 2. Pesquise por "Terminal" ou "CMD" na sua barra de tarefas e abra o terminal do seu dispositivo.</h4>
 <h4> 3. Clone o repositório com o comando: </h4>
   
-    git clone https://github.com/velipefieira/PortifolioDD  
+    git clone https://github.com/velipefieira/Portfolio  
 
   <h4> 4. Acesse a pasta src com o comando: </h4>
   
@@ -104,7 +104,7 @@
  <p>  - - L 📁 imagens: Pasta contendo as imagens utilizadas no projeto. </p>
  <p>  | :spiral_notepad: .gitignore: Arquivo para ignorar os ambientes virtuais durante o envio ao GitHub. <p>
  <p>  | :spiral_notepad: README.MD: Documentação que você está lendo neste momento. </p>
-  <p>  | :spiral_notepad: vercel.json: Arquivo para implementar o site na plataforma Vercel. </p>
+ <p>  | :spiral_notepad: vercel.json: Arquivo para implementar o site na plataforma Vercel. </p>
  <p>  | 🗒️ requirements.txt: Documento de texto com os requerimentos para rodar o sistema. </p>
  
  <p> </p>
