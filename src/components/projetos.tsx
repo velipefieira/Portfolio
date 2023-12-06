@@ -33,7 +33,7 @@ export default function Projetos({ tema }: any) {
       titulo: "API 2° Semestre",
       subtitulo: "Sistema gerenciador de chamadas de serviço para uma fornecedora de Internet Fixa.",
       desc: "Minha contribuição como Product Owner/Product Manager para a API(Aprendizagem por Projeto Integrado) do 2° semestre. Desenvolvido entre Ago-Nov/23.",
-      link: "https://github.com/Equipe-CodeLand/API-2023.1",
+      link: "https://github.com/Equipe-CodeLand/API-2023.2",
       img: "https://raw.githubusercontent.com/Equipe-CodeLand/API-2023.2/main/docs/cliente_mvp.gif",
       tec: ["https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg", "https://cdn-icons-png.flaticon.com/128/5968/5968242.png", "https://www.svgrepo.com/show/376337/node-js.svg",  "https://cdn-icons-png.flaticon.com/512/5968/5968381.png", "https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-512.png", "https://avatars.githubusercontent.com/u/20165699?s=200&v=4"]
     },
@@ -41,7 +41,7 @@ export default function Projetos({ tema }: any) {
       titulo: "Pet Lovers",
       subtitulo: "Sistema de gerenciamento para um Pet Shop",
       desc: "Projeto desenvolvido em dupla ao decorrer de 5 atividades práticas para a disciplina Tecnicas de Programação I, utilizando conceitos de Programação orientada a objetos e arquitetura em camadas com React. Desenvolvido entre Out-Dez/23.",
-      link: "https://github.com/Equipe-CodeLand/API-2023.1",
+      link: "https://github.com/velipefieira/Ativ-PetLovers",
       img: "/imagens/capas/petlovers.gif",
       tec: ["https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg", "https://cdn-icons-png.flaticon.com/128/5968/5968242.png", "https://www.svgrepo.com/show/376337/node-js.svg",  "https://cdn-icons-png.flaticon.com/512/5968/5968381.png", "https://cdn-icons-png.flaticon.com/512/5968/5968282.png"]
     },
