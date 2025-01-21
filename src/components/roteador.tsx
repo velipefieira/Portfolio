@@ -1,56 +1,47 @@
-import React, { Component, MouseEvent } from "react";
-import Hobbies from "./hobbies";
-import Projetos from "./projetos";
+import React from "react";
 import Navbar from "./navbar";
-import Home from "./home";
 import Footer from "./footer";
-import "./static/style.css"
-import Certificacoes from "./certificacoes";
+import Home from "./home";
+import Projetos from "./projects";
+import Certificacoes from "./technologies";
+import "./static/style.css";
 
-type State = {
-  tela: string;
+const Roteador = () => {
+  const cor = "#366391";
+  const corSecundaria = "#ECF0F1";
+
+  // Obtém a tela atual da URL
+  const telaAtual = window.location.pathname;
+
+  let conteudo;
+  switch (telaAtual) {
+    case "/projetos":
+      conteudo = <Projetos tema={cor} />;
+      break;
+    case "/certificacoes":
+      conteudo = <Certificacoes tema={cor} />;
+      break;
+    case "/":
+    default:
+      conteudo = <Home tema={cor} />;
+      break;
+  }
+
+  return (
+    <>
+      <Navbar
+        tema={cor}
+        botoes={[
+          { nome: "Home", link: "/" },
+          { nome: "Projetos", link: "/projetos" },
+          { nome: "Certificações", link: "/certificacoes" },
+        ]}
+      />
+      <div style={{ marginBottom: 100 }}></div>
+      {conteudo}
+      <Footer tema={corSecundaria} />
+    </>
+  );
 };
 
-export default class Roteador extends Component<{}, State> {
-  constructor(props: {} | Readonly<{}>) {
-    super(props);
-    this.state = {
-      tela: "Home",
-    };
-    this.selecionarView = this.selecionarView.bind(this);
-  }
-
-  selecionarView(novaTela: string, evento: MouseEvent) {
-    evento.preventDefault();
-    console.log(novaTela);
-    this.setState({
-      tela: novaTela,
-    });
-  }
-
-  render() {
-    let barraNavegacao = (
-      <Navbar
-        seletorView={this.selecionarView}
-        tema="#9dd2d8"
-        botoes={["Home", "Certificações", "Hobbies", "Projetos"]}
-      />
-    );
-    let footer = (
-      <Footer
-        tema="#9dd2d8"
-      />
-    );
-
-    return (
-      <>
-        {barraNavegacao}
-        {this.state.tela === "Home" && <Home tema="#9dd2d8" />}
-        {this.state.tela === "Certificações" && <Certificacoes tema="#9dd2d8"/>}
-        {this.state.tela === "Hobbies" && <Hobbies tema="#9dd2d8"/>}
-        {this.state.tela === "Projetos" && <Projetos tema="#9dd2d8"/>}
-        {footer}
-      </>
-    );
-  }
-}
+export default Roteador;

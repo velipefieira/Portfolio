@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FaHeadphones } from "react-icons/fa";
 import { TbBooks } from "react-icons/tb";
 import { ImCamera } from "react-icons/im";
-import FotografiasModal from "./fotografiasModal";
+import FotografiasModal from "./fotoModal";
 
 export default function Hobbies({tema}: any) {
     const [state, setState] = useState({
